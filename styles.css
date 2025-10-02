@@ -1,11 +1,20 @@
+* {
+margin: 0px;
+}
+
+
 body {
-    background-color: rgb(31, 31, 31);
-    color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(44, 0, 0);
+    color: rgb(223, 171, 0);
+    font-family: fantasy;
 }
 
 .header {
-    background-color: red;
+background-color: rgb(40, 0, 54);
+padding: 20px;
+border: 2px solid black;
+margin: 0px;
+font-family: fantasy;
 }
 
 .header h2 {
@@ -13,7 +22,34 @@ body {
 }
 
 .hero {
+height: 100vh;
+padding: 15%;
+}
 
+.hero h1 {
+    font-size: 100px;
+}
+
+.hero p {
+margin-bottom: 20px;
+}
+
+
+.hero a {
+    color: rgb(223, 171, 0);
+    text-decoration: none;
+    background-color: rgb(40, 0, 54);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hero a:hover {
+    background-color: rgb(223, 171, 0);
+    color: rgb(40, 0, 54);
+    border: 2.5px solid black;
 }
 
 .products {
